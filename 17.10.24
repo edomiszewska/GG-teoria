@@ -146,6 +146,19 @@ odpalamy MySql i apache, czyli po czesci kozystamy tez z 3 warstwowej.
 
 
 
+relacyjne bazy danych to teoria zbiorów -
+iloczyn kartezjanski (wszystko przez wszystko mnozymy);
+
+zawartosc tabeli ulegaja ciaglym zmianom.
+
+pojecie relacji odnosi sie do tabeli.
+
+1:1,1:w,w:w - np.
+
+
+
+
+
 
 
 =====================================================
