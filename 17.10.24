@@ -1,0 +1,64 @@
+=====================================================
+
+encja - tabela
+
+wszystko jest obiektem!
+
+encja - rzeczywistosc, obiekt ktory jest do zdefiniowania
+
+encja = tabela, a bardziej tytul tabeli
+
+krotka to rekord
+
+DANE PIERWOTNE I DANE POCHODNE
+
+dane pierwotne nie moga byc wyliczane, musza zostac wprowadzone
+np. data urodzenia (NIE MOGA BYC WYLICZANE NA PODSTAWIE CZEGOS);
+
+dane pochodne - sa wyliczane/wprowadzenie na podstawie danych pierwotnych
+- np. wyliczenie wieku na podstawie obliczenia roznicy daty dzisiejszej i daty urodzenia.
+
+baza danych - zbior danych ktory dotyczy okreslonego fragmentu rzeczywistosci,
+np. hurtownia, apteka.
+
+Bierzemy potem ta rzeczywistosc i probujemy ja zdefiniowac.
+
+System zarzadzania baza danych (SZBD) - program, ktory zarzadza BD.
+ulatwia:
+kopiowanie, modyfikacje, przetwarzanie.
+np. workbench. !
+
+
+model danych - jest to zbior zintegrowanych zasad opisujacych dane, np. relacje, powiazania, operacje, ograniczenia
+pomiedzy danymi.
+
+
+czesc strukturalna, manipulacyjna, reguly -
+
+
+strukturalna - z regul okreslajacych zasady bazy danych(?), cala struktura i budowa bazy danych.
+
+manipulacyjna - okreslajaca transakacje, pobieranie, aktualizacje, opracje, itd na bazach danych(TCL).
+
+reguly - gwarancja integralnosci dzialania.
+
+model jednorodny - jeden (latwy do przegladania, odczytywania, jedna tabela, ale i anomalie - duplikaty).
+
+model hierarchiczny - przypomina odwrocone drzewo, jeden korzen od ktorego leca inne galezie,
+opiera sie na zwiazkach podrzednych i nadrzednych, nie mozna wstawic rekordu podrzednego dopoki nie bedzie nadrzednego, 
+dostep do danych zaczyna sie od korzenia(gory) az do reszty.
+
+model relacyjny - klucz obcy i glowny.
+
+
+
+
+=====================================================
+
+
+
+
+
+
+
+
