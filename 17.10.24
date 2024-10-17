@@ -183,6 +183,15 @@ niekluczowa kolumna nie moze zalezec od innej niekluczowej kolumny,
 zadna z kolumn niebedaca kluczem podst. nie moze zaleze cod innej kolumny nie bedacej tez kluczem podst. (podstawowowym - podst.),
 kazdy niekluczowy argument jest bezposrednio zalezny tylko od klucza glownego, a nie od innej kolumny, tzn. wywal pola, ktore nie zaleza od kluczy.
 
+------------------------
+NORMALIZACJA (w skrocie)
+- bez powtorzen,
+- pola zaleza od klucza,
+- od calego klucza,
+i niczego innego, tylko klucza.
+------------------------
+
+ATOMOWOSC, DANE PODZIELNE, itd.
 
 =====================================================
 
