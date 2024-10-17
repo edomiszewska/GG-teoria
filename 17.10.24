@@ -91,9 +91,58 @@ ograniczenie integralnosci statycznie - np. na pole sprawdz (checked) > czy < od
 ograniczenie integralnosci dynamiczne - przeciwdzialaja zmianom.
 
 
+schemat SZBD:
+modul zarz. pamiecia - przechowuje informacje o miejscu plikow BD na dysku
+procesor zapytan - przeksztalca zapytanie lub operacje jezyka w ciag polecen żądajacych okreslonych danych
+modul zarz. transakcjami - kontroluje poprawnosc i kompletnosc wykonania wszystkich transakcji.
 
 
+serwer bazo danowy jest jednym ze specjalistycznych komputerow do zarzadzania danych,
+serwer BD moze udostepniac dane klientom, itd.
 
+systemy klient-serw -
+
+darmowe to:
+mariaDB
+MySQL
+PostgreSQL
+Firebird
+
+a komercyjne:
+microsoft SQL Server
+Oracle
+DB2
+Informix Dynamic Server
+
+
+architektura sys. BD
+system zarz.BD wraz z cala BD i jezykiem komunikowania sie tworza SYSTEM BAZ DANYCH.
+
+
+aplikacje < > relacyjny jezyk programowania < > system zarzadzania BD < > B1,B2,B3
+
+system przechowywania danych - 
+jest zorganizowany w plikach,
+tzn. same dane, sprzet, programy do zarz. BD, jezyki do komunikacji i ludzie (uzytkownicy).
+
+
+rodzaje i architektura BD:
+
+1. ancispark(?) poziome
+2. struktra komunikacyjna
+
+poziom wew(fizyczne przechowywanie danych) i zew(uzytkownik, czlowiek  jego prawa).
+pojeciowowo-koncepcyjny.
+
+
+architektura komunikacyjna
+1 warstwowa - wszystko znajduje sie na 1 komputerze (interfejs uzyt.itd) na ktorym jest korzystana.
+2 warstwowa - klient - server,
+aplikacje <> siec komputerowa <> system zarz. BD <> baza danych, 
+wykorzystuja sieciowe oprogramowanie np. workbench aby sie polaczyc.
+3 warstwowa -
+przegladarka www <> protokol http <> serwer aplikacji (udostepniania) <> siec komp. <> sys.zarz.BD <> baza danych
+odpalamy MySql i apache, czyli po czesci kozystamy tez z 3 warstwowej.
 
 
 
