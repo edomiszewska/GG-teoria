@@ -158,6 +158,30 @@ pojecie relacji odnosi sie do tabeli.
 relacje RD;
 
 
+normalizacja baz danych - 
+proces, ktory ma na celu usuac redundancje(nadmiar), zwieksza bezpieczensto danych.
+
+celem normalizacji jest unikanie anomalii.
+
+anomalia - to ciagle powtarzajace sie dane.
+anomalia modyfikacji - modyfikacje np. jak klient wypoyzczy jedna ksiazke bez wpisanego nr telefonu i druga z nr telefonu.
+anomalia usuwania - część informacji, ktore usune spowoduje usuniecie innych informacji.
+
+1 NF - pierwsza postac normalna
+kiedy wiersz przechowuje inf. o pojedynczym obiekcie. posiada klucz glowny, kolumne, grupe kolumn, ktore jednoznacznie identyf. go w zbiorze,
+dane sa atomowe (jest nastepstwem tego ze kazdy wiersz przechowuje inf o poj. obiekcie, dane sa niepodzielne).
+czyli np. imie i nazwisko, to sa 2 osobne kolumny tak samo miasto i kraj bo jako osobno da sie podzielic.
+
+2 NF - druga postac normalna
+aby byla druga postac, MUSI wystapic pierwsza
+tabela powinna przechowywac dane dotyczace tylko konkretnej klasy obiektow.
+zaleza od klucza glownego.
+
+3 NF - trzecia postac normalna
+musi zaistniec druga, aby byla TRZECIA (czyli tak jak w poprzedniej),
+niekluczowa kolumna nie moze zalezec od innej niekluczowej kolumny,
+zadna z kolumn niebedaca kluczem podst. nie moze zaleze cod innej kolumny nie bedacej tez kluczem podst. (podstawowowym - podst.),
+kazdy niekluczowy argument jest bezposrednio zalezny tylko od klucza glownego, a nie od innej kolumny, tzn. wywal pola, ktore nie zaleza od kluczy.
 
 
 =====================================================
