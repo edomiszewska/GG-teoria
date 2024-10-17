@@ -48,7 +48,53 @@ model hierarchiczny - przypomina odwrocone drzewo, jeden korzen od ktorego leca 
 opiera sie na zwiazkach podrzednych i nadrzednych, nie mozna wstawic rekordu podrzednego dopoki nie bedzie nadrzednego, 
 dostep do danych zaczyna sie od korzenia(gory) az do reszty.
 
-model relacyjny - klucz obcy i glowny.
+model relacyjny - klucz obcy i glowny, relacja mowi nam o teoriach zbioru i kod wyciaga stamtad esencje tego wszystko i tworzy model relacyjny 
+opierajac sie na dwoch galeziach matematyki 
+- teorii mnogosci i predyktow.
+
+model sieciowy - podobny do hierarchicznego - jak odwrocone drzewo. 
+roznice: wiele drzew moze dzielic ze soba galezie, a kazde z nich stanowi ogolna strukture BD.
+
+model obiektowy - opiera sie na lacznosc z programami komputerowymi, z jezykami obiektowymi -
+czyli tworzenie obiektow, klas, dziedziczenie.
+
+obiekt jest odwzorowaniem rzeczywistosci.
+
+objectquerylanguage - jezyk.
+postgreSQL !
+
+
+integralnosc danych - spojnosc danych, instrukcja systemu,
+ktora gwarantuje, ze dane nie zostana usuniete czy zmodyfikowanie w rozny sposob.
+dane nie moga ulec znieksztalceniu w trakcie wykonywania operacji.
+dane dokladnie odzwierciedlaja rzeczywistosc np. hurtownie, klienci.
+zabezpieczenie danych przez awariami.
+
+
+zachowanie poprawnosci bazy danych - utrzymywanie poprawnosci w obrebie encji, semantyki, itd.
+semantyka - nauka o jezyku
+integralnsoc semantyczna - polega na utrzymywaniu ograniczen nakladanych na dane,
+jesli ma byc wartosc ujemna to musi byc tam ujemna, jak ma byc imie to nie moga byc cyfry i w kolumnie nie moga byc braki.
+
+integralnosc encji - kazda tabela (encja) nazwa tej tabeli, atrybuty encji, definicji
+musi posiadac klucz glowny i musi byc kolumna i nie moze wystapic NULL i dane sie nie powtarzaja.
+
+----------------------------------------------------
+create schema to jest to samo co create database !!!!
+
+----------------------------------------------------
+
+model referencyjny - podobne co relacyjne.
+
+ograniczenie integralnosci statycznie - np. na pole sprawdz (checked) > czy < od 200 np. lat.
+
+ograniczenie integralnosci dynamiczne - przeciwdzialaja zmianom.
+
+
+
+
+
+
 
 
 
